@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "./components/NavBar.jsx";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import MapPage from "./components/map/LeafletMap.jsx";
+import ScrollToTop from "./ScrollToTop";
 
 function App() {
   return (

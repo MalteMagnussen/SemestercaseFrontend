@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Map, TileLayer } from "react-leaflet";
-import "./forecast.css";
 import "leaflet/dist/leaflet.css";
-import MenuOptions from "./MenuCard";
 import MapFeatures from "./MapFeatures";
 import useWindowDimensions from "../util/WindowDimensions";
 import { Container, Row, Col } from "react-bootstrap";
